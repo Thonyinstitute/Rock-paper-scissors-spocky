@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+*{
+    background-color: rgb(141, 75, 75);
+    font-family: 'Roboto', sans-serif;
+    color: #081d31;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

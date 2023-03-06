@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="play against the computer, Paper, Rock, Lizard and Scissors. Spock game  ">
+    <meta name="Keywords" content="Spock game against computer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4abd417607.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <style></style> 
     <title>Document</title>
 </head>
 <body>
-    <h1 class="heading"> <img src="assets/images/Spocky-logos.jpg" alt="logo">Let's Play</h1>
+    <h1 class="heading"> <img src="assets/images/Spocky-logos_white.png" alt="logo">Let's Play</h1>
+<section id="game-area">
+    <div class="controls-area">
+    <span class="text-label">Rock</span>
+    <span icon="rock" id="rock" class="rock"><i aria-label="rock" class="fa-regular fa-hand-back-fist"></i></span>
+    <span class="text-label">Paper</span>
+    <span icon="paper" id="paper" class="paper"><i aria-label="paper" class="fa-regular fa-hand"></i></span>
+    <span class="text-label">Scissors</span>
+    <span icon="text-label" id="scissors" class="scissors"><i class="fa-regular fa-hand-scissors"></i></span>
+    <span class="text-label">Lizard</span>
+    <span icon="text-label" id="lizard" class="lizard"><i class="fa-regular fa-hand-lizard"></i></span>
+    <span class="text-label">Spock</span>
+    <span icon="text-label" id="spock" class="spock"><i class="fa-regular fa-hand-spock"></i></span>
+    </div>
+</section>
+<section>
+    <div class="score-area">
+        <p  class="text-label"> <span id="player1">Player &nbsp;</span>0</p>
+        <p  class="text-label"> <span id="computer">Computer &nbsp;</span>0</p>
+    </div>
+</section>
 
-<Div class="game-area"></Div>
-<div class="score-area">
-    <p class="score">Player <span id="player1"></span>0</p>
-    <p class="score">Computer <span id="computer"></span>0</p>
-</div>
 
 
 
