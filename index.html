@@ -18,21 +18,27 @@
     <h1 id="heading"> <img src="assets/images/Spocky-logos_white.png" alt="logo">Let's Play</h1>
 <section id="game-area">
     <div class="controls-area">
-    <span class="text-label">Rock</span>
-    <button icon="btn btn--big" id="btn btn--big" class="btn btn--big"><i aria-label="btn btn--big" class="fa-regular fa-hand-back-fist"></i></button>
-    <span class="text-label">Paper</span>
-    <button icon="btn btn--big" id="btn btn--big" class="btn btn--big"><i aria-label="btn btn--big" class="fa-regular fa-hand"></i></button>
-    <span class="text-label">Scissors</span>
-    <button icon="btn btn--big" id="btn btn--big" class="btn btn--big"><i aria-label="btn btn--big" class="fa-regular fa-hand-lizard"></i></button>
-    <span class="text-label">Lizard</span>
-    <button icon="btn btn--big" id="btn btn--big" class="btn btn--big"><i aria-label="btn btn--big" class="fa-regular fa-hand-scissors"></i></button>
-    <span class="text-label">Spock</span>
-    <button icon="btn btn--big" id="btn btn--big" class="btn btn--big"><i aria-label="btn btn--big" class="fa-regular fa-hand-spock"></i></button>
+    <button  id="btn btn--big--rock" class="btn btn--big">
+        <i class="fa-regular fa-hand-back-fist"></i>
+    </button> 
+    <button id="btn btn--big--paper" class="btn btn--big">
+        <i class="fa-regular fa-hand"></i>
+    </button> 
+    <button id="btn btn--big--lizard" class="btn btn--big">
+        <i class="fa-regular fa-hand-lizard">
+    </i></button> 
+    <button id="btn btn--big--scissors" class="btn btn--big">
+        <i class="fa-regular fa-hand-scissors">
+    </i></button> 
+    <button  id="btn btn--big--spock" class="btn btn--big">
+        <i class="fa-regular fa-hand-spock"></i>
+    </button>
     </div>
-    <div class="score-area">
-        <p  class="text-label"> <span id="player1">Player &nbsp;</span>0</p>
-        <br>
-        <p  class="text-label"> <span id="computer">Computer &nbsp;</span>0</p>
+</section>
+<section class="score-area">
+    <div class="scores">
+        <button  class="text-label-btn"> <span id="player1">Player &nbsp;</span>0</button><br>
+        <button  class="text-label-btn"> <span id="computer">Computer &nbsp;</span>0</button>
     </div>
 </section>
 

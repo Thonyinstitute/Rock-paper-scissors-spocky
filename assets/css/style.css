@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 *{
-    background-color: rgb(63, 133, 54);
+    background-color: rgb(160, 55, 86);
     font-family: 'Roboto', sans-serif;
     color: #081d31;
     text-align: center;
@@ -20,53 +20,151 @@ I got my inspiration from the love math css
     padding-right: 5px;
 }
 #game-area{
-    background-color: rgb(43, 4, 4);
-    box-sizing: border-box;
-    width: 95%;
-    min-height: fit-content;
-    max-width: fit-content;
-    max-height: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-flexbox;
+    box-sizing: content-box;
+    margin: auto;
+    padding: 1%;
+}
+
+.controls-area {
+    display: inline-flexbox;
+    box-sizing: content-box;
+    margin: auto;
     padding: 1%;
 }
 
 .score-area {
-    width: 85%;
+    width: 95%;
     margin: 30px auto;
+    font-size: 1.2rem;
+    background-color: inherit;
 }
 
-.controls-area {
-    width: 900px;
-    height: 500px;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.2px;
-    color: brown;
-}
+
+
+/**
+style the button to fit the game area */
 
 .btn {
-    font-size: 50px;
-    width: 100px;
+    width: 220px;
     height: 60px;
-    border: none;
     font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 1.2px;
+    color: white;
 }
 
 .btn:focus {
     outline: none;
 }
 
+.text-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn--big {
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 20px;
+    border-radius: 20%;
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 40px 100px;
+    transition: all 0.5s;
+}
+
+.btn--big::after {
+    content: attr(data-type);
+    font-size: 1rem;
+    color: inherit;
+    position: relative;
+}
+
+/** style the button to hover with and active in color */
+
+.btn--big:hover, .btn--big:active {
+    background-color: white;
+}
 
 
-@media screen and (max-width: 425px) {
+/**
+Sccore area */
+
+#player1 {
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 35%;
+    background-color: inherit;
+}
+
+.text-label-btn {
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 12px;
+    background-color: white;
+
+}
+
+#computer {
+    font-weight: bold;
+    font-size: 2.2rem;
+    border-radius: 12px;
+    background-color: inherit;
+}
+
+/** style to be responsive on mobile */
+@media (max-width: 414px) {
+    .controls-area {
+        width: 100%;
+    }
+
+    .btn--big {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    .btn--big::after {
+        font-size: 0.6rem;
+        left: -0.7rem;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    .scores {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
     .heading {
-        margin-bottom: 1rem;
+        font-size: 2rem;
     }
-    #game-area {
-        padding: 0rem;
-        margin: auto;    
-        width: 90%;
+}
+
+@media (max-width: 320px) {
+    .game-area {
+        height: 70vh;
     }
+
+    .controls-area {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .btn--big {
+        margin: 10px 10px;
+    }
+    .question-area {
+        padding: 10px 0;
+    }
+
+}
