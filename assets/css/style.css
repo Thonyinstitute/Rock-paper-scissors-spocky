@@ -90,8 +90,7 @@ style the button to fit the game area */
 }
 
 
-/**
-Sccore area */
+/** style the Sccore area button*/
 
 #player1 {
     font-size: 2rem;
@@ -116,6 +115,7 @@ Sccore area */
 }
 
 /** style to be responsive on mobile */
+
 @media (max-width: 414px) {
     .controls-area {
         width: 100%;
