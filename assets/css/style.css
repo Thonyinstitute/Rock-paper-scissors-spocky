@@ -77,7 +77,7 @@ style the button to fit the game area */
 }
 
 .btn--big::after {
-    content: attr(data-type);
+    content: attr(icon);
     font-size: 1rem;
     color: inherit;
     position: relative;
