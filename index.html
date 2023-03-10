@@ -15,42 +15,45 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="heading"> <img src="assets/images/Spocky-logos_white.png" alt="logo">Let's Play</h1>
+    <header id="header">
+        <h1 class="logo"><img src="assets/images/Spocky-logos_white.png" alt="logo"><br><p>Let's Play</p>
+    </h1>
+    </header>
+    <br>
 <section id="game-area">
     <div class="controls-area">
-    <button icon="Rock" id="btn btn--big--rock" class="btn btn--big">
-        <i class="fa-regular fa-hand-back-fist"></i>
-    </button> 
-    <button icon="Paper" id="btn btn--big--paper" class="btn btn--big">
-        <i class="fa-regular fa-hand"></i>
-    </button> 
-    <button icon="Lizard" id="btn btn--big--lizard" class="btn btn--big">
-        <i class="fa-regular fa-hand-lizard">
-    </i></button> 
-    <button icon="Scissors" id="btn btn--big--scissors" class="btn btn--big">
-        <i class="fa-regular fa-hand-scissors">
-    </i></button> 
-    <button icon="Spock"  id="btn btn--big--spock" class="btn btn--big">
-        <i class="fa-regular fa-hand-spock"></i>
-    </button>
+        <p class="sel"><span class="text-label">Rock</span><br><i aria-label="Rock" id="rock" data-choice="rock" class="icon fa-regular fa-hand-back-fist"></i></p>
+        <p class="sel"><span class="text-label">Paper</span><br><i aria-label="Paper" id="paper" data-choice="paper" class="icon fa-regular fa-hand"></i></p>
+        <p class="sel"><span class="text-label">Scissors</span><br><i aria-label="Scissors" id="scissors" data-choice="scissors" class="icon fa-regular fa-hand-peace"></i></p>
+        <p class="sel"><span class="text-label">Lizard</span><br><i aria-label="Lizard" id="lizard" data-choice="lizard" class="icon fa-regular fa-hand-lizard"></i></p>
+        <p class="sel"><span class="text-label">Spock</span><br><i aria-label="Spock" id="spock" data-choice="spock" class="icon fa-regular fa-hand-spock"></i></p>
     </div>
 </section>
 
 <section>
-    <div class="question-area">
-        <p>Play against the computer</p>
-        
-        <span></span>
+ <!-- text area underneath icons showing start message and game rules -->
+ <p id="winner-message-area">Click an icon to play - first to five wins!</p>
 
-    </div>
-</section>
-<section class="score-area">
-    <div class="scores">
-        <span  class="text-label-btn"> <span id="player1">Player &nbsp;</span>0</span><br>
-        <span class="text-label-btn"> <span id="computer">Computer &nbsp;</span>0</span>
-    </div>
-</section>
+ <!-- area at bottom displaying player names and current score -->
+ <section id="score-area">
+     <div id="player1">
+         <p>PLAYER</p>
+         <div id="scorebox-p">
+             <p>score</p>
+             <span class="score" id="player1-score">0</span>
+         </div>
+     </div>
+     <div id="cpu">
+         <p>COMPUTER</p>
+         <div id="scorebox-c">
+             <p>score</p>
+             <span class="score" id="cpu-score">0</span>
+         </div>
+     </div>
+ </section>
+</main>
 
-    <script src="assets/js/script.js"></script>
+<!-- JavaScript file for game functions -->
+<script src="assets/js/script.js"></script>
 </body>
 </html>
