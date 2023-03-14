@@ -105,14 +105,3 @@ JSHint Score
 ![JS Hint validation](https://user-images.githubusercontent.com/122373462/225036603-eb5eeb43-2729-457c-b078-ae7ae6e96f05.jpg)
 
 
-## Deployment
-Deployment
-Local Development
-Fork
-Clone
-
-## Credits
-Code Used
-Content
-Media
-Acknowledgments
