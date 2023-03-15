@@ -55,7 +55,7 @@ Balsamiq: Creating a Wireframe.
 The website is made up of 3 sections and a header embeded inside the body. Each section has the following features: game-area, message-area and score-area.
 The Header considt of a Logo Image.
 
-![image](https://user-images.githubusercontent.com/122373462/225011273-a3dc8ef7-8774-4b41-afdb-95da14d9c0fe.png)
+![image](https://user-images.githubusercontent.com/122373462/225292419-31e21553-53e6-4375-9cce-7783f15fb8bc.png)
 
 ### The main heading
 
@@ -64,8 +64,8 @@ The Header considt of a Logo Image.
 
 ### General Features
 
-The Website start with logo and heading ### Let's Play where the user can start playing immediately by clicking on any of the icon. The scores are recorded as per a click to the icon and points are given to the player that has the correct answer
-![image](https://user-images.githubusercontent.com/122373462/225025432-41d4d296-8ebe-4351-9a41-84b35982bc1f.png)
+The Website start with logo and heading Let's Play where the user can start playing immediately by clicking on any of the icon. The scores are recorded as per a click to the icon and points are given to the player that has the correct answer
+![image](https://user-images.githubusercontent.com/122373462/225292137-edbe8036-ffca-4968-ab63-b0b9e5447b04.png)
 
 
 Future Implementations
@@ -103,5 +103,14 @@ W3C Validation Score
 
 JSHint Score
 ![JS Hint validation](https://user-images.githubusercontent.com/122373462/225036603-eb5eeb43-2729-457c-b078-ae7ae6e96f05.jpg)
+
+## Deployment steps and Update
+
+### Steps
++ I adjusted the html, css, Javascript and committed the code on Gitpod.
++ Navigate to Github and my project  repo clicked on it
++ I navigate setting, click on it and on the right hand side locate page and click
++ crow down to branch select main and crow down to Custom domain and input the https://8000-thonyinstit-rockpapersc-qfm9fgrm0pr.ws-eu90.gitpod.io/
++ Click save
 
 
