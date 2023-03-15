@@ -26,6 +26,14 @@ The overall objective of Rock-paper-scissors-spocky is to have fun while playing
 
 + I played to catch fun.
 
+## Credit
++ [knutinator](https://github.com/knutinator/lets-play-rpsls)
++ Szilvi
++ Paul G
++ W3C
++ Google font and google font awesome
++ CodeInstitute Love-Math
++ ui.dev
 
 
 ## Design
