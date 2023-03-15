@@ -138,7 +138,7 @@ function determineWinner() {
     }
     else if (playerChoice === "rock" && computerChoice === "spock") {
         winMessage = win9;
-        inccomputerScore();
+        incComputerScore();
     }
     // Rock + Scissors //
     else if (playerChoice === "rock" && computerChoice === "scissors") {
@@ -147,19 +147,19 @@ function determineWinner() {
     }
     else if (playerChoice === "scissors" && computerChoice === "rock") {
         winMessage = win10;
-        inccomputerScore();
+        incComputerScore();
     }
 
     // display round winner message and increase score tally (code was inspired by https://stackoverflow.com/questions/68074211/make-score-counter-from-javascript-display-as-text-in-html) //
     function incPlayerScore() {
         playerScore++;
-        let playerScoreNew = document.getElementById("player1-score");
+        let playerScoreNew = document.getElementById("player-score");
         playerScoreNew.textContent = `${playerScore}`;
         updateWinMessage();
     }
     function incComputerScore() {
         computerScore++;
-        let computerScoreNew = document.getElementById("cpu-score");
+        let computerScoreNew = document.getElementById("computer-score");
         computerScoreNew.textContent = `${computerScore}`;
         updateWinMessage(); 
     }

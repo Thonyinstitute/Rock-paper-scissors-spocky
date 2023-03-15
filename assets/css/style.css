@@ -12,14 +12,22 @@ styling the heading
 I got my inspiration from the love math css and https://github.com/knutinator/lets-play-rpsls
  */
 /* Logo on top of page */
-.logo-top {
+.header {
     font-size: 1.5rem;
     color: gray;
 }
 
-.logo-bottom {
+.logo {
     font-size: 4rem;
-    margin-top: -2rem;
+    color: solid white;
+}
+
+.rules {
+    font-size: 1rem;
+    color: white;
+}
+p {
+    color: rgb(255, 255, 255);
 }
 
 /* Styling to make whole game fit on mobile screens */
@@ -52,6 +60,7 @@ I got my inspiration from the love math css and https://github.com/knutinator/le
 }
 
 .text-label {
+    color: white;
     position: relative;
     bottom: 1rem;
 }
@@ -77,19 +86,19 @@ I got my inspiration from the love math css and https://github.com/knutinator/le
     
 }
 
-#player1 {
+#player {
     margin-top: 3rem;
     float: left;
 }
 
 #scorebox-p {
     border-radius: 1rem;
-    border: 8px solid red;
+    border: 8px solid grey;
     width: 4rem;
     padding: 0 1rem 1rem 1rem;
 }
 
-#player1-score {
+#player-score {
     font-size: xx-large;
 }
 
@@ -97,7 +106,7 @@ I got my inspiration from the love math css and https://github.com/knutinator/le
     height: 5rem;
 }
 
-#cpu {
+#computer {
     margin-top: 3rem;
     float: right;
 }
@@ -109,6 +118,6 @@ I got my inspiration from the love math css and https://github.com/knutinator/le
     padding: 0 1rem 1rem 1rem;
 }
 
-#cpu-score {
+#computer-score {
     font-size: xx-large;
     }

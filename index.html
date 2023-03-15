@@ -15,10 +15,10 @@
     <title>Document</title>
 </head>
 <body>
-    <header id="header">
-        <p class="logo"><img src="assets/images/Spocky-logos_white.png" alt="logo"><br><p>Let's Play</p>
+    <heading id="header">
+        <p class="logo"><img src="assets/images/Spocky-logos_white.png" alt="logo"><br><p class="logo">Let's Play</p>
     </p>
-    </header>
+    </heading>
     <br>
 <section id="game-area">
     <div class="controls-area">
@@ -29,25 +29,26 @@
         <p class="sel"><span class="text-label">Spock</span><br><i aria-label="Spock" id="spock" data-choice="spock" class="icon fa-regular fa-hand-spock"></i></p>
     </div>
 </section>
-
+<br>
 <section>
+    <p class="rules">In every icon clicked - a winner is added </p>
  <!-- text area underneath icons showing start message and game rules -->
  <p id="winner-message-area">Click an icon to play - first to five wins!</p>
 </section>
  <!-- area at bottom displaying player names and current score -->
  <section id="score-area">
-     <div id="player1">
-         <p>PLAYER</p>
+     <div id="player">
+         <p>PLAYER</p><br>
          <div id="scorebox-p">
              <p>score</p>
-             <span class="score" id="player1-score">0</span>
+             <span class="score" id="player-score">0</span>
          </div>
      </div>
-     <div id="cpu">
-         <p>COMPUTER</p>
+     <div id="computer">
+         <p>COMPUTER</p><br>
          <div id="scorebox-c">
              <p>score</p>
-             <span class="score" id="cpu-score">0</span>
+             <span class="score" id="computer-score">0</span>
          </div>
      </div>
  </section>
